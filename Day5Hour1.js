@@ -1,0 +1,27 @@
+var day='thursday',number;
+switch(day)
+{
+    case'sunday':
+       number=0;
+       break;
+    case'monday':
+       number=1;
+       break;
+    case'tuesday':
+       number=2;
+       break;
+    case'wednesday':
+        number=3;
+        break;
+    case'thursday':
+       number=4;
+    case'friday':
+       number=5;
+       break;
+    case'saturday':
+        number=6;
+        break;
+    default:
+        number=9;
+}
+console.log(number);
